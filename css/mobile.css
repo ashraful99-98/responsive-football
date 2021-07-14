@@ -1,22 +1,35 @@
-#header{
-    width: 100vw;
+#main{
+    flex-direction: column;
+    padding: 20px;
 }
-.nav{
-    padding: 0;
+.heading{
+    padding-bottom: 40px;
 }
-.navbar li a{
-    font-size: 8px;
-    padding: 0 5px;
+#main .img img{
+    width: 329px;
+    height: 259.17px;
 }
-.nav .button{
-    padding: 4px;
-    margin-right: 8px;
+.players{
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 20px
 }
-.nav .button img{
-   width: 15px;
-   height: 14px;
-} 
-.nav .button a{
-    font-size: 10px;
-    padding-left: 2px;
+.player{
+    width: 300px;
+}
+.player img{
+    width: 290px;
+}
+#highlights{
+    flex-direction: column;
+}
+#highlights .img img{
+    width: 329px;
+    height: 259.17px;
+}
+footer{
+    padding: 30px 0;
+}
+footer .img img{
+    width: 310px;
+    margin-left: -20px;
 }
