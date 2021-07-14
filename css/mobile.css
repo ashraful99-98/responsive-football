@@ -19,7 +19,7 @@
 }
 .players{
       grid-template-columns: repeat(1, 1fr);
-      padding-left: 25px;
+      padding-left: 140px;
 }
 .player{
     width: 300px;
@@ -46,3 +46,9 @@ footer .img img{
     width: 310px;
     margin-left: -25px;
 }
+/* @media only screen and (max-width:400px){
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        padding: auto;
+  }
+} */

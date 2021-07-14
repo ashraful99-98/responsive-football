@@ -106,11 +106,11 @@ body{
 }
 .players{
     width: 880px;
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-column-gap: 24px;
-   grid-row-gap:30px;
-   padding-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap:30px;
+    padding-left: 80px;
 }
 .player{
     width: 330px;
