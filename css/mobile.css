@@ -46,9 +46,9 @@ footer .img img{
     width: 310px;
     margin-left: -25px;
 }
-/* @media only screen and (max-width:400px){
+@media only screen and (max-width:400px){
     .players{
         grid-template-columns: repeat(1, 1fr);
         padding: auto;
   }
-} */
+}
