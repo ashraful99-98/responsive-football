@@ -49,6 +49,6 @@ footer .img img{
 @media only screen and (max-width:400px){
     .players{
         grid-template-columns: repeat(1, 1fr);
-        padding: auto;
+        padding: 25px;
   }
 }
