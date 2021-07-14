@@ -1,6 +1,7 @@
 #main{
     flex-direction: column;
     padding: 20px;
+    overflow: hidden;
 }
 .heading{
     padding-bottom: 40px;
@@ -8,6 +9,9 @@
 #main .img img{
     width: 329px;
     height: 259.17px;
+}
+#player-section{
+    overflow: hidden;
 }
 .players{
       grid-template-columns: repeat(1, 1fr);
@@ -21,6 +25,7 @@
 }
 #highlights{
     flex-direction: column;
+    overflow: hidden;
 }
 #highlights .img img{
     width: 329px;
