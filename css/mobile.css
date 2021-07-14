@@ -1,25 +1,7 @@
 #header{
-    overflow: hidden;
+    display: none;
 }
-.nav{
-    padding: 0px;
-    justify-content: space-around;
-}
-.navbar li a{
-    font-size: 9px;
-    padding: 0 5px;
-}
-.nav .button{
-    padding: 2px 4px;
-}
-.nav .button img{
-    width: 14px;
-    height: 14px;
-}
-.nav .button a{
-    font-size: 10px;
-    margin-bottom: 5px;
-}
+
 #main{
     flex-direction: column;
     padding: 20px;
