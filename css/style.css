@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+}
+/*--------- Header Section
+ ----------------*/
+/* #header{
+    background: #2D25A0;
+    padding: 15px 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 100px;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.nav .button{
+    display: flex;
+    text-align: center;
+    background: #E02C6D;
+    padding: 10px 22px;
+}
+.nav .button img{
+    width: 24px;
+    height: 24px;
+}
+.nav .button a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 16px;
+} */
+/*-------- Main section
+--------------- */
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D25A0;
+    padding-top: 67px;
+    padding-bottom: 86px;
+}
+.heading{
+    margin: 0 100px;
+}
+.heading h1{
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.heading a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    background: #E02C6D;
+    padding: 10px 22px;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+.img{
+    margin: 0 60px;
+}
+#main .img img{
+    width: 556px;
+    height: 438px;
+}
+/* Players */
+#player-section{
+    padding: 100px 0;
+}
+.players{
+    width: 880px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 24px;
+   grid-row-gap:30px;
+   padding-left: 80px;
+}
+.player{
+    width: 330px;
+    height: 477px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+}
+.player img{
+    width: 330px;
+    height: 256px;
+}
+/* Hightlights */
+#highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 67px 0;
+
+}
+.heading h2{
+    font-size: 35px;
+}
+h2 span{
+    color: #E02C6D;
+}
+.heading p{
+    margin-bottom: 20px;
+}
+.img img{
+    width: 670px;
+}
+/* Footer */
+footer{
+    text-align: center;
+    padding: 50px 0;
+}
+footer .img img{
+    width: 420px;
+    height: 115px;
+}
+footer .icon img{
+    width: 32px;
+    height: 32px;
+    padding: 0 7px;
+    padding-bottom: 12px;
+}
+footer p{
+    font-size: 18px;
+    line-height: 24px;
+}

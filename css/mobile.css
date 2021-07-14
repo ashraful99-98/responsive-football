@@ -1,0 +1,22 @@
+#header{
+    width: 100vw;
+}
+.nav{
+    padding: 0;
+}
+.navbar li a{
+    font-size: 8px;
+    padding: 0 5px;
+}
+.nav .button{
+    padding: 4px;
+    margin-right: 8px;
+}
+.nav .button img{
+   width: 15px;
+   height: 14px;
+} 
+.nav .button a{
+    font-size: 10px;
+    padding-left: 2px;
+}
