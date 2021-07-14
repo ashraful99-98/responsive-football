@@ -6,6 +6,45 @@
 body{
     font-family: 'Poppins';
 }
+/*---------- Header
+----------- */
+#header{
+    background: #2D25A0;
+    padding: 15px 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 100px;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+}
+.nav .button{
+    display: flex;
+    text-align: center;
+    background: #E02C6D;
+    padding: 10px 22px;
+}
+.nav .button img{
+    width: 24px;
+    height: 24px;
+}
+.nav .button a{
+   text-decoration: none;
+   color: #fff;
+   display: inline-block;
+   font-size: 16px;
+}
 /*-------- Main section
 --------------- */
 #main{
